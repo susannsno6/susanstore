@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+nav ul li:hover{
+    background-color: rgb(255, 166, 0);
+}
+a{
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+h1{
+    font-family: sans-serif;
+}
+p{
+    color: rgb(78, 78, 78);
+    font-family: sans-serif;
+    font-style: italic;
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col2 img{
+    max-width:100%;
+    padding: 50px 0;
+}
+.col2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background-color: rgb(255, 142, 49);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.header{
+    background-color: rgb(236, 213, 0);
+}
+.header .row{
+    margin-top: 70px;
+}
+.btn:hover{
+    background-color: rgb(37, 37, 37);
+}
+/* feature cat */
+.cat{
+    margin: 70px 0;
+}
+.col3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col3 img{
+    width: 100%;
+}
+.smallcontainer{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* feature pro */
+.col4{
+    flex-basis: 25px;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.col4 img{
+    width: 100%;
+}
+.col4:hover{
+    transform: translateY(-5px);
+}
+.offer{
+    background-color: rgb(255, 130, 57);
+    margin-top: 70px;
+    padding: 30px 0;
+}
+.col2 .offer-img{
+padding: 50px;
+}
+small{
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    font-style: italic;
+}
+.smallcontainer hr{
+    border: none;
+    background: #000000;
+    height: 1px;
+    margin: 20px 0px;
+}
+.smallcontainer p{
+    color: #000000;
+    font-style: italic;
+}
+.social{
+    margin-left: 45px;
+}
+
+.social a{
+    margin-left: 45px;
+}
+.social a i{
+color: #fff;
+margin-left: 45px;
+}

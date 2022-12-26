@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+    border: 1px solid #000;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+nav ul li:hover{
+    background-color: #fff;
+}
+a{
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+
+}
+h1{
+    font-family: sans-serif;
+}
+p{
+    color: rgb(78, 78, 78);
+    font-family: sans-serif;
+    font-style: italic;
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col1{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col1 img{
+    max-width:100%;
+    padding: 50px 0;
+}
+
+.btn{
+    display: inline-block;
+    background-color: rgb(255, 145, 0);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.header{
+    background-color: rgb(0, 164, 185);
+}
+.header .row{
+    margin-top: 70px;
+}
+.btn:hover{
+    background-color: rgb(14, 14, 14);
+}
+.smallcontainer hr{
+    border: none;
+    background: #000000;
+    height: 1px;
+    margin: 20px 0px;
+}
+.smallcontainer p{
+    color: #000000;
+    font-style: italic;
+}
+.social{
+    margin-left: 45px;
+}
+
+.social a{
+    margin-left: 45px;
+}
+.social a i{
+color: #fff;
+margin-left: 45px;
+padding-bottom: 165px;
+
+}
+.formcontainer{
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 35px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+   
+  
+}
+.copyright{
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 25px;
+}
+ span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.formbtn{
+    display: inline-block;
+}
+.formcontainer form{
+   max-width: 300px;
+   padding: 0 20px;
+   /* position: absolute;
+   top:130px; */
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+width: 100%;
+border: none;
+cursor: pointer;
+margin: 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#loginForm{
+    left: 300px;
+}
+#regform{
+    left: 0px;
+}
